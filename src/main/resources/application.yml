@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/pfe
+    username: root
+    password:
+
+
+
+  profiles:
+    active: local
